@@ -358,3 +358,26 @@ footer a:hover {
     transition: opacity 0.3s ease;
   }
 }
+
+  
+@media (max-width: 800px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start; /* O center si prefieres */
+    text-align: left; /* O center según lo que quieras */
+    margin-left: clamp(5%, 10%, 10%);
+    margin-right: clamp(5%, 15%, 15%);
+    max-width: 80vw;
+    padding: 0 1.5%;
+  }
+
+  .footer-bloque,
+  .desc_footer {
+    min-width: auto; /* para que no se fuerce ancho fijo */
+    width: 100%; /* ocupar todo el ancho disponible */
+  }
+
+  .footer-texto {
+    margin: 10px 0; /* reducir márgenes para móvil */
+  }
+}
