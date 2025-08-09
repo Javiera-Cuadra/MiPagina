@@ -159,6 +159,11 @@ nav {
 .sub-cont-big {
   min-width: 55%;
   padding:4%;
+  
+}
+
+.sub-cont-big h2 {
+  margin-bottom: 2%;
 }
 
 .special {
@@ -212,6 +217,30 @@ color: rgb(247, 243, 243);
 
 .img {
   max-width: 100%;
+}
+
+/* -------- HABILIDADES -------- */
+.habilidades p{
+  margin: 0 15%; 
+  text-align: justify;
+}
+
+.habilidades h2 {
+  color: #7a3925;
+}
+
+.skills_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+
+.skills_icon {
+    color: var(--light);
+    font-size: 2.5rem;
+    cursor: pointer;
 }
 
 /* -------- FOOTER -------- */
