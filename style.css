@@ -118,7 +118,7 @@ nav {
 #inicio {background-color: rgb(250, 248, 248);}
 #proyectos {background: linear-gradient(#694e43,#1a1a1a00)
   ,url(https://www.toptal.com/designers/subtlepatterns/uploads/binding_dark.png);} /* rgb(97, 79, 67) */
-#contacto {background-color: rgb(250, 248, 248);}
+#skills {background-color: rgb(250, 248, 248);}
 
 .container {
   width: 100%;
@@ -220,13 +220,22 @@ color: rgb(247, 243, 243);
 }
 
 /* -------- HABILIDADES -------- */
+
 .habilidades p{
   margin: 0 15%; 
   text-align: justify;
 }
 
 .habilidades h2 {
-  color: #7a3925;
+  color: #4b2e24;
+}
+
+.descripciones {
+  border: inset 1.9px #3d2c2633;
+  border-radius: 1%;
+  width: 70%;
+  padding: 3% 0%;
+  margin: 1% auto;
 }
 
 .skills_container {
