@@ -249,7 +249,7 @@ nav {
   width: 70%;
   padding: 3% 0%;
   margin: 1% auto;
-  font-size: clamp(0.8rem, 0.825vw, 0.825vw);
+  font-size: clamp(0.8rem, 0.82vw, 0.82vw);
 }
 
 .skills_container {
@@ -425,7 +425,9 @@ footer a:hover {
   }
 
   .descripciones p {
-    font-size: 0.7rem;
+    font-size: 0.73rem;
+    line-height: 1;
+    text-align: center;
   }
 
   .nav-links a{
