@@ -190,7 +190,7 @@ nav {
 .grid {
   display: grid;
   gap: 1rem;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
   align-items: center;
 }
@@ -405,6 +405,11 @@ footer a:hover {
 
   * {
     max-width: 100%;
+  }
+
+  .card p {
+    display:contents;
+    font-size: 0.77rem;
   }
 }
 
