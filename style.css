@@ -202,7 +202,7 @@ nav {
   padding: 1rem;
   border-radius: 3px;
   box-shadow: 0 2px 4px rgba(77, 36, 30, 0.192);
-  border: 2px solid #bb8570be;
+  border: 1px solid #bb8570be;
   transition: transform 0.3s ease; /* transición suave */
 }
 
@@ -264,14 +264,37 @@ nav {
   color: var(--light);
   font-size: 2.5rem;
   cursor: pointer;
-  transition: transform 0.2s ease; /* transición suave */
+  transition: transform 0.35s ease; /* transición suave */
 }
+
 
 .skills_icon:hover {
-  transform: translateY(-6px); /* se mueve 5px hacia arriba */
+  transform: translateY(-6px); /* se mueve 6px hacia arriba */
+
 }
 
+@keyframes jumpUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-6px); } /* Este es tu "pico" más alto */
+}
+
+@keyframes jumpDown {
+  0% { transform: translateY(-6px); }
+  100% { transform: translateY(0); } 
+}
+
+/* Esta clase ejecutará la animación completa una sola vez */
+.skills_icon.animate-up {
+  animation: jumpUp 0.35s ease-in-out;
+}
+
+.skills_icon.animate-down {
+  animation: jumpDown 0.35s ease-in-out;
+}
+
+
 /* -------- FOOTER -------- */
+
 
 .animation {
   width: 15%;
